@@ -19,7 +19,7 @@ By default, the application runs on `http://localhost:8080`.
 ### Submit Harvest Data
 
 ```http
-POST /api/farm-controller/harvest
+POST /api/harvest-controller/harvest
 ```
 #### Request Body
 
@@ -35,7 +35,7 @@ POST /api/farm-controller/harvest
 ### Submit Plant Data
 
 ```http
-POST /api/farm-controller/plant
+POST /api/harvest-controller/plant
 ```
 
 #### Request Body
@@ -51,10 +51,10 @@ POST /api/farm-controller/plant
 
 ### Generate Farm Report
 ```http
-GET /api/farm-controller/reports/farmer/{farmerId}
+GET /api/harvest-controller/reports/farmer/{farmerId}
 ```
 
 ### Generate Crop Report
 ```http
-GET /api/farm-controller/reports/crop/{cropTypeId}
+GET /api/harvest-controller/reports/crop/{cropTypeId}
 ```
